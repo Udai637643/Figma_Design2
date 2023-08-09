@@ -1,0 +1,23 @@
+
+  .btn-custom-purple {
+    color: #5C27C0;
+    border-color: #5C27C0;
+  }
+  
+  .btn-custom-purple:hover {
+    background-color: #5C27C0;
+    color: white;
+  }
+  .navbar-nav .nav-item .nav-link.active {
+    position: relative;
+  }
+  
+   .nav-link.active::after {
+    content: '';
+    position: absolute;
+    bottom: -5px; /* Adjust the distance from the link */
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #070706;
+  }
